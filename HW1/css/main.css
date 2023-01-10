@@ -1,0 +1,350 @@
+@import "fonts.css";
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  padding-right: 14%;
+  padding-left: 14%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.headerList {
+  display: flex;
+  gap: 71px;
+  align-items: center;
+}
+.headerList a,
+.footerList a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.signInStartTrialButtons {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Lato";
+
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  background: #01996d;
+}
+
+.SignIn {
+  background: #ffffff;
+  color: #292929;
+  padding: 13px 50px;
+}
+
+.StartTrial {
+  padding: 13px 50px;
+}
+.sectionWithHeadline {
+  background-image: url(../img/BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 175px;
+  padding-bottom: 336px;
+}
+h1 {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 74px;
+  color: #01996d;
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 40%;
+}
+p {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.headlineDescription {
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.headlineBtn,
+.videoDescription a,
+.productDescription a {
+  display: inline-block;
+  padding: 20px 50px;
+}
+.sectionHowItWorks {
+  margin-top: 170px;
+}
+.sectionName {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+  color: #424242;
+}
+.descriptionHowItWorks {
+  display: flex;
+  gap: 136px;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+}
+.descriptionHowItWorks h2 {
+  width: 42%;
+}
+.descriptionHowItWorks p {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 40%;
+}
+.cards {
+  margin-top: 52px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 95px;
+}
+.card:nth-child(2) {
+  margin-top: 340px;
+  margin-bottom: 51px;
+}
+.card:nth-child(3) {
+  margin-top: 106px;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+}
+.card .number {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  color: rgba(1, 153, 109, 0.2);
+}
+.card .header {
+  position: absolute;
+  top: 135px;
+  left: 85px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card .description {
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.card img {
+  width: 100%;
+}
+.sectionVideo {
+  background: #245852;
+}
+.sectionVideo .wrapper {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.videoHeader,
+.videoDescription p {
+  color: #ffffff;
+}
+.allAboutVideo,
+.allAboutProduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.videoDescription {
+  margin-top: 310px;
+  width: 40%;
+}
+.video {
+  position: relative;
+  height: 516px;
+  background-image: url(../img/video.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin-top: 230px;
+  margin-bottom: 176px;
+  width: 61%;
+}
+.video img {
+  position: absolute;
+  top: 216px;
+  left: 46%;
+}
+.videoDescription p {
+  margin-top: 33px;
+  margin-bottom: 57px;
+}
+
+.mainImg {
+  text-align: center;
+
+  background: rgba(1, 153, 109, 0.2);
+  border-radius: 18px;
+}
+.allAboutProduct {
+  margin-top: 120px;
+  margin-bottom: 240px;
+}
+.productDescription {
+  width: 43%;
+}
+.product {
+  position: relative;
+  width: 46%;
+}
+.profile {
+  width: 47%;
+  position: absolute;
+  top: 354px;
+  right: 63%;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profileHeader {
+  margin: 20px 30% 0 30%;
+  padding-bottom: 8px;
+  border-bottom: 0.745942px solid #000000;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+}
+.profile img {
+  margin-top: 14px;
+  margin-bottom: 11px;
+}
+.profileName {
+  font-size: 11.9351px;
+  line-height: 157%;
+  margin-bottom: 20px;
+}
+.profileContent {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  color: #000000;
+}
+ul {
+  text-align: left;
+  margin-left: 10%;
+}
+ul li {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 157%;
+}
+.productHeader {
+  margin-bottom: 20px;
+}
+.productDescription a {
+  margin-top: 40px;
+}
+footer {
+  background: #245852;
+  position: relative;
+  padding-bottom: 39px;
+}
+footer p,
+.footerList a {
+  color: #ffff;
+}
+.footerList a {
+  position: relative;
+  display: block;
+  margin-bottom: 60px;
+}
+.footerList a:last-child {
+  margin-bottom: 21px;
+}
+.citeName {
+  font-family: "Noto Sans Georgian";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  margin-top: 95px;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.icon {
+  text-align: center;
+  padding: 24px 25px;
+  border-radius: 50%;
+  width: 82px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.icon:nth-child(2) {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #80a4ce 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+}
+.stores {
+  position: absolute;
+  top: 464px;
+  right: 5%;
+  text-align: center;
+}
+.stores p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 124.5%;
+  margin-bottom: 28px;
+}
