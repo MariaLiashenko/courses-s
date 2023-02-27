@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <textarea
+                style="width: 300px; height: 40px"
+                type="text"
+                id="text"
+                value="ЦеЕЕе Текст з ПосилАнням 1234 На Https://google.com та Email abc123@gmail.com"
+            ></textarea>
+            <button onclick="ChangeLine()">Перевірити рядок</button>
+            <textarea style="width: 300px; height: 40px" type="text" id="changedText" value=""></textarea>
+        </div>
+        <div>
+            <input style="width: 100px; height: 20px" type="text" id="textwithBracket" value="" />
+            <button onclick="checkBracket()">Перевірити на дужки</button>
+        </div>
+        <container>
+            <input type="text" id="userInput" />
+            <button onclick="processInput()">Відобразити</button>
+            <ul id="wordList"></ul>
+        </container>
+        <script src="main.js"></script>
+    </body>
+</html>
