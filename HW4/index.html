@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/normalize.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <!-- <div class="main display"> -->
+
+        <div class="sticky-section">
+            <div class="wrapper">
+                <div class="nawbar">
+                    <img class="nawbar__logo" src="./images/Logo.png" alt="logo" />
+                    <div class="nawbar__menu">
+                        <a href="#modern-interior">HOME</a>
+                        <a href="#twenty-years">PROJECT</a>
+                        <a href="#what-we-do">SERVICES</a>
+                        <a href="#about-us">ABOUT</a>
+                        <a href="#letest-news">BLOG</a>
+                        <a href="#">SHOP</a>
+                        <a href="#">CONTACT</a>
+                        <a class="sign-up" href="#">Sign Up</a>
+                    </div>
+                    <div class="nawbar__menu-burger">
+                        <div class="burger-header">
+                            <a class="sign-up" href="#">Sign Up</a>
+
+                            <div class="burger-header__btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="list">
+                            <a href="#modern-interior">HOME</a>
+                            <a href="#twenty-years">PROJECT</a>
+                            <a href="#what-we-do">SERVICES</a>
+                            <a href="#about-us">ABOUT</a>
+                            <a href="#letest-news">BLOG</a>
+                            <a href="#">SHOP</a>
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+                <progress id="progressBar" value="0" max="100"></progress>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="modern-interior" class="modern-interior">
+                <img class="dots" src="./images/Dots.png" alt="Dots" />
+                <div class="modern-interior__text">
+                    <p class="section-name">MODERN INTERIOR</p>
+                    <h1>Create Your Interior Design.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                    <a class="text-button" href="#">CONTACT</a>
+                </div>
+                <div class="image">
+                    <div class="bord"></div>
+
+                    <img src="./images/Design_main.png" alt="design" />
+                </div>
+            </div>
+            <!-- </section> -->
+            <section id="what-we-do" class="what-we-do">
+                <p class="section-name">WHAT WE DO</p>
+                <h2>Our Service</h2>
+                <div class="what-we-do__buttons">
+                    <a id="1" data-filter="All" class="text-button" href="#">ALL</a>
+                    <a id="2" data-filter="N" class="text-button" href="#">Start letter "N"</a>
+                    <a id="3" data-filter="E" class="text-button" href="#">Start letter "E"</a>
+                </div>
+                <div class="what-we-do__services" id="what-we-do__services"></div>
+            </section>
+            <section id="about-us" class="about-us">
+                <div class="image">
+                    <div class="bord"></div>
+                    <img src="./images/design_about-us.png" alt="design" />
+                </div>
+                <div class="about-us__text">
+                    <p class="section-name">ABOUT US</p>
+                    <h2>Interioris The Will of An Epoch Mextreo</h2>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form injected humour, or randomised words which don't look even slightly
+                        believable.If you are going to use a passage of Lorem Ipsum, sure there isn't anything
+                        embarrassing hidden the middleof text. All the Lorem Ipsum generators on the Internettend to
+                        repeat predefined chunks as necessary,making this the first true generator on the Internet.
+                    </p>
+                    <a class="text-button" href="#">LEARN MORE</a>
+                </div>
+                <img class="dots" src="./images/Dots.png" alt="Dots" />
+            </section>
+            <section id="twenty-years" class="twenty-years">
+                <div class="twenty-years__text">
+                    <p class="number">20</p>
+                    <h2>Years Of Successful Working The Market</h2>
+                    <a class="text-button" href="#">READ MORE</a>
+                </div>
+                <div class="image">
+                    <div class="bord"></div>
+                    <img src="./images/design_twenty.png" alt="design" />
+                </div>
+            </section>
+        </div>
+        <section class="completed-work">
+            <div class="wrapper">
+                <h2>
+                    3000+ Completed Work<br />
+                    Which WE have Successfully Done
+                </h2>
+                <div class="completed-work__vectors">
+                    <img src="./images/vector_left.png" alt="" />
+                    <img src="./images/vector.png" alt="" />
+                    <img src="./images/vector_left.png" alt="" />
+                </div>
+
+                <div class="completed-work__cards">
+                    <div class="completed-work__card">
+                        <p class="num">980</p>
+                        <p class="name">Project</p>
+                    </div>
+                    <div class="completed-work__card">
+                        <p class="num">520</p>
+                        <p class="name">Happy Client</p>
+                    </div>
+                    <div class="completed-work__card">
+                        <p class="num">330</p>
+                        <p class="name">Winners</p>
+                    </div>
+                    <div class="completed-work__card">
+                        <p class="num">120</p>
+                        <p class="name">Recoment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="testimonials">
+                <div class="testimonials__text">
+                    <p class="section-name">TESTIMONIALS</p>
+                    <h2>Client says about us</h2>
+                </div>
+                <div class="testimonials__buttons">
+                    <!-- <a class="pre-button" href="#">&lsaquo;</a> -->
+                    <button class="pre-button">&lsaquo;</button>
+
+                    <button class="next-button">&rsaquo;</button>
+
+                    <!-- <a class="next-button" href="#"> &rsaquo;</a> -->
+                </div>
+                <div class="testimonials__comments">
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/man.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">Louis Saville</p>
+                            <p class="person-job">/CEO at Google inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/woman.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">Mary Feby</p>
+                            <p class="person-job">/CEO at Amazon inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/woman.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">Mary Feby</p>
+                            <p class="person-job">/CEO at Amazon inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/woman.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">Mary Feby</p>
+                            <p class="person-job">/CEO at Amazon inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/man.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">David Resy</p>
+                            <p class="person-job">/CEO at Aliexpress inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="testimonials__comment">
+                        <img class="comment__ava" src="./images/woman.png" alt="" />
+                        <img class="comment__comma" src="./images/comma.png" alt="" />
+                        <div class="comment__person">
+                            <p class="person-name">Anna Starter</p>
+                            <p class="person-job">/CEO at Silpo inc</p>
+                        </div>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="letest-news" class="letest-news">
+            <div class="wrapper">
+                <div class="letest-news__text">
+                    <p class="section-name">LETEST NEWS</p>
+                    <h2>From Our Blog</h2>
+                </div>
+                <div class="letest-news__blog-cards">
+                    <div class="card">
+                        <div class="image">
+                            <div class="bord"></div>
+                            <img src="./images/news_2020.png" alt="design" />
+                        </div>
+                        <div class="card__text">
+                            <h3>2020 Interior Design Trends</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                            <a class="text-button" href="#">CONTINUE READING....</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <div class="bord"></div>
+                            <img src="./images/news_28.png" alt="design" />
+                        </div>
+                        <div class="card__text">
+                            <h3>28 Notable Product at ARC Interior Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut
+                                labore et dolore magna aliqua.
+                            </p>
+                            <a class="text-button" href="#">CONTINUE READING....</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="sign-up-section">
+                <div class="sign-up-section__container">
+                    <h2>DON’T FORGET TO SIGN UP</h2>
+                    <p>Find out early about all upcoming promotions and new product releases with our newsletter.</p>
+                    <form id="sign-up__form">
+                        <div class="form__name-section">
+                            <div class="input-with-error">
+                                <input type="text" id="firstName" name="firstName" placeholder="Enter your name....." />
+                                <div id="firstNameError" class="error"></div>
+                            </div>
+                            <div class="input-with-error">
+                                <input
+                                    type="text"
+                                    id="lastName"
+                                    name="lastName"
+                                    placeholder="Enter your surname....."
+                                />
+                                <div id="lastNameError" class="error"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-with-error">
+                            <input type="email" id="email" name="email" placeholder="Enter your e-mail....." />
+                            <div id="emailError" class="error"></div>
+                        </div>
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                    <div id="message-discount"></div>
+                </div>
+            </section>
+        </div>
+        <section class="footer">
+            <div class="wrapper">
+                <div class="footer-container">
+                    <div class="footer-container__about-company">
+                        <img class="nawbar__logo" src="./images/Logo.png" alt="logo" />
+                        <p>
+                            But i must explain to you all this mistaken <br />
+                            of dencouncing pleasure.
+                        </p>
+                    </div>
+                    <div class="footer-container__quick-links">
+                        <p class="bigger">Quick Links</p>
+                        <p>About Our Company</p>
+                        <p>Services WE provide</p>
+                        <p>Career & Opportunity</p>
+                        <p>Privacy & policy</p>
+                        <p>Contact US</p>
+                    </div>
+                    <div class="footer-container__company">
+                        <p class="bigger">Company</p>
+                        <p>About Company</p>
+                        <p>Our Testimonials</p>
+                        <p>Latest News</p>
+                        <p>Our misson</p>
+                        <p>Get a free Quot</p>
+                    </div>
+                    <div class="footer-container__contact-us">
+                        <p class="bigger">Contact us</p>
+                        <p>Sagrada Familia, Herba</p>
+                        <p>Street Front USA</p>
+                        <p>brandoxide@gmail.com</p>
+                        <p>002-568423591</p>
+                    </div>
+                    <div class="footer-container__follow-us">
+                        <p class="bigger">Follow Us</p>
+                        <a href="https://www.facebook.com/"><img src="./images/ico_fb.png" alt="" /></a>
+                        <a href="https://twitter.com/"><img src="./images/ico_twitter.png" alt="" /></a>
+                        <a href="https://www.instagram.com/"><img src="./images/ico_instagram.png" alt="" /></a>
+                        <a href="https://www.linkedin.com/"><img src="./images/ico_linkedIn.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copywrite">Copyright @ <span id="current-year"></span> Brandoxide.all right reserved.</p>
+        </section>
+        <!-- </div> -->
+        <script src="./main.js"></script>
+    </body>
+</html>
